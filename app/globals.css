@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@400;500;600;700;800;900&family=Inter:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-brand-orange: #e04b1e;
+  --color-brand-orange-hover: #c83d12;
+  --color-brand-peach: #FFE6D5;
+  --color-brand-dark: #222222;
+  --color-brand-light: #fcfbfa;
+  --color-gray-150: #f0f1f3;
+  
+  --font-sans: 'Inter', sans-serif;
+  --font-serif: 'Bitter', serif;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: var(--color-brand-peach);
+  color: var(--color-brand-dark);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-serif);
+}
+
+/* Custom Utilities */
+.glass-panel {
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.05);
+}
+
+.animated-underline {
+  position: relative;
+}
+
+.animated-underline::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: -4px;
+  left: 0;
+  background-color: var(--color-brand-orange);
+  transform-origin: bottom right;
+  transition: transform 0.3s ease-out;
+}
+
+.animated-underline:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+@keyframes archGrowY {
+  0% {
+    transform: scaleY(0);
+    opacity: 0;
+  }
+  100% {
+    transform: scaleY(1);
+    opacity: 1;
+  }
+}
+
+@keyframes archGrowX {
+  0% {
+    transform: scaleX(0);
+    opacity: 0;
+  }
+  100% {
+    transform: scaleX(1);
+    opacity: 1;
+  }
+}
+
+.arch-hidden {
+  transform-origin: left;
+  transform: scaleX(0);
+  opacity: 0;
+}
+
+.animate-arch-grow {
+  transform-origin: left;
+  animation: archGrowX 1.2s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+@media (min-width: 768px) {
+  .arch-hidden {
+    transform-origin: bottom;
+    transform: scaleY(0);
+  }
+  .animate-arch-grow {
+    transform-origin: bottom;
+    animation: archGrowY 1.2s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+  }
+}
+
+@keyframes slideUpFade {
+  0% {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-slide-up-fade {
+  animation: slideUpFade 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+.feature-hidden {
+  opacity: 0;
+  transform: translateY(40px);
+}
+
+@keyframes dashFlow {
+  to {
+    stroke-dashoffset: -20;
+  }
+}
+
+.animate-dash-flow {
+  animation: dashFlow 2s linear infinite;
+}
+
+@keyframes float {
+  0% { transform: translateY(0px); }
+  50% { transform: translateY(-10px); }
+  100% { transform: translateY(0px); }
+}
+
+.animate-float-card {
+  animation: float 6s ease-in-out infinite;
+}
+
+/* Workflow Redesign Animations */
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.animate-fade-in-up {
+  opacity: 0;
+  animation: fadeInUp 0.8s ease-out forwards;
+}
+
+@keyframes popIn {
+  from { opacity: 0; transform: scale(0.9); }
+  to { opacity: 1; transform: scale(1); }
+}
+
+.animate-pop-in {
+  opacity: 0;
+  animation: popIn 0.5s ease-out forwards;
+}
+
+@keyframes drawLine {
+  from { stroke-dashoffset: 200; }
+  to { stroke-dashoffset: 0; }
+}
+
+.animate-draw-line {
+  stroke-dasharray: 200;
+  stroke-dashoffset: 200;
+  animation: drawLine 1s ease-in-out forwards;
+}
+
+.animate-data-flow {
+  animation: dashFlow 1s linear infinite;
+}

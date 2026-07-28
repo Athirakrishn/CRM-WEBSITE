@@ -1,0 +1,29 @@
+# Logs
+logs
+*.log
+
+# Dependencies
+node_modules
+
+# Build folders
+.next
+dist
+dist-ssr
+
+# Environment files
+.env
+.env.local
+*.local
+
+# IDE files
+.vscode/*
+!.vscode/extensions.json
+.idea
+
+# OS files
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
