@@ -82,6 +82,8 @@ function FAQSection() {
       
       <div className="max-w-3xl mx-auto px-8 relative z-10">
         <div className="text-center mb-16">
+
+          <h2 className="sr-only">FAQs About CRM Software in Kerala</h2>
           <h2 className="text-4xl md:text-5xl font-serif font-bold mb-6 text-[#F4F0EB] min-h-[1.2em]">{typedText}</h2>
           <p className="text-xl text-gray-400 leading-relaxed max-w-2xl mx-auto">
             Everything You Need to Know About the Best CRM Software in Kerala and How It Works

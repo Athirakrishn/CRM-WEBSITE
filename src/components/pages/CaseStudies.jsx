@@ -31,7 +31,11 @@ function CaseStudies() {
         <main className="flex-grow pt-16 pb-24 px-8">
           <div className="max-w-7xl mx-auto">
             <div className="text-center max-w-3xl mx-auto mb-16">
-              <h1 className="text-5xl md:text-6xl font-serif font-bold mb-6 text-[#F4F0EB] min-h-[1.2em]">{typedText}</h1>
+              <h1 className="text-5xl md:text-6xl font-serif font-bold mb-6 text-[#F4F0EB] min-h-[1.2em]">
+                
+                {typedText}
+                
+                </h1>
               <h2 className="text-xl text-gray-400 leading-relaxed font-normal">
                 Learn how leading agencies are using Lumeo, a trusted CRM software company in Calicut, to unify their operations, save time, and boost their bottom line.
               </h2>

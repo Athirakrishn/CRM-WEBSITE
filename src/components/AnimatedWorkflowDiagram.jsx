@@ -31,11 +31,11 @@ const AnimatedWorkflowDiagram = () => {
         {/* Left Content (Steps 1 & 2) */}
         <div className="w-full lg:w-5/12 flex flex-col gap-6">
           <div className={`transition-all duration-1000 ${step >= 1 ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}>
-            <h2 className="text-5xl lg:text-6xl font-sans font-bold text-white mb-4 tracking-tight leading-tight">
+            <h1 className="text-5xl lg:text-6xl font-sans font-bold text-white mb-4 tracking-tight leading-tight">
               Redesign Your<br />
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#FF7A45] to-[#FF9C45]">Workflow</span>
               <span className="block text-2xl mt-4 text-gray-300 font-normal">Business CRM System in Calicut</span>
-            </h2>
+            </h1>
 
             <p className="text-gray-400 text-lg leading-relaxed max-w-md">
               No more wasted hours on manual data entry. Lumeo’s CRM system does all the heavy lifting – the business CRM system in Calicut for teams who want to move faster.

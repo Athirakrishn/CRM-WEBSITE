@@ -196,12 +196,7 @@ function Home() {
 
          
 
-            <p className="text-lg text-gray-400 leading-relaxed max-w-xl pt-4">
-               Looking for the Best CRM Software? Best CRM Software For Kerala Businesses It helps you keep track of your <span className="font-semibold text-gray-200">leads, deals, customers,</span> tasks and notes all in one place. You get to avoid the friction and be in complete control of your sales pipeline.
-            </p>
-
-{/* seo */}
-<p className="text-lg text-gray-400 leading-relaxed max-w-xl pt-4">
+ <p className="text-lg text-gray-400 leading-relaxed max-w-xl pt-4">
    Looking for the best CRM software in Kerala? Our premium CRM software Kerala businesses trust helps you keep track of your <span className="font-semibold text-gray-200">leads, deals, customers,</span> tasks and notes all in one place. Avoid the friction and stay in complete control of your sales pipeline.
 </p>
 
