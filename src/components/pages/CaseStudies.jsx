@@ -31,6 +31,7 @@ function CaseStudies() {
         <main className="flex-grow pt-16 pb-24 px-8">
           <div className="max-w-7xl mx-auto">
             <div className="text-center max-w-3xl mx-auto mb-16">
+              <span className="sr-only">Customer Success Stories</span>
               <h1 className="text-5xl md:text-6xl font-serif font-bold mb-6 text-[#F4F0EB] min-h-[1.2em]">
                 
                 {typedText}

@@ -1,7 +1,7 @@
 export const dynamic = 'force-static';
 
 export default function sitemap() {
-  const baseUrl = 'https://lumeo.estgrp.in';
+  const baseUrl = 'https://crm.estgrp.in';
   return [
     { url: `${baseUrl}`, lastModified: new Date() },
     { url: `${baseUrl}/sandbox`, lastModified: new Date() },

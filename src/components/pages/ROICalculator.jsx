@@ -74,15 +74,16 @@ function ROICalculator() {
                   <Calculator size={16} className="text-brand-orange" />
                   <span className="text-xs font-bold tracking-widest text-gray-300 uppercase">ROI Calculator</span>
                 </div>
-
-                <h2 className="text-5xl md:text-[4.5rem] font-sans font-bold mb-8 text-white leading-[1.1] tracking-tight">
-                  <span>
-                    Estimate Your<br />
-                    <span className="text-transparent bg-clip-text bg-gradient-to-r from-brand-orange to-[#ff844a]">Savings</span>
-                  </span>  </h2>
-                <h1><span className="block text-xl md:text-2xl mt-6 text-gray-300 font-light tracking-wide border-t border-white/10 pt-6 max-w-lg">
-                  — Best CRM Platforms in Calicut
-                </span></h1>
+{/* seo */}
+<h1 className="text-5xl md:text-[4.5rem] font-sans font-bold mb-8 text-white leading-[1.1] tracking-tight">
+  <span>
+    Estimate Your<br />
+    <span className="text-transparent bg-clip-text bg-gradient-to-r from-brand-orange to-[#ff844a]">Savings</span>
+  </span>
+</h1>
+<span className="block text-xl md:text-2xl mt-6 text-gray-300 font-light tracking-wide border-t border-white/10 pt-6 max-w-lg">
+  — Best CRM Platforms in Calicut
+</span>
 
 
                 <p className="text-xl text-gray-400 leading-relaxed mb-12 max-w-lg">
@@ -129,7 +130,7 @@ function ROICalculator() {
               <div className="w-full xl:w-[55%] relative mt-12 xl:mt-0">
                 {/* Main Image Container */}
                 <div className="relative rounded-[2rem] overflow-hidden border border-brand-orange/20 shadow-2xl aspect-[4/3] xl:aspect-auto xl:h-[650px] w-full max-w-[800px] ml-auto">
-                  <img src="/images/crm-dashboard.webp" alt="best-business-crm-in-kerala" className="w-full h-full object-cover opacity-80" />
+                  <img src="/images/crm-dashboard.webp" alt="Best-business-CRM-in-Kerala-dashboard-preview" className="w-full h-full object-cover opacity-80" />
                   <div className="absolute inset-0 bg-gradient-to-t from-[#111315] via-transparent to-transparent opacity-80"></div>
                 </div>
 
@@ -212,7 +213,7 @@ function ROICalculator() {
 
                 {/* Gallery Card 1 */}
                 <div className="group relative h-[450px] rounded-3xl overflow-hidden border border-white/10 shadow-2xl">
-                  <img src="/images/business-dashboard-performance.webp" alt="Best-CRM-software" className="absolute inset-0 w-full h-full object-cover group-hover:scale-110 transition-transform duration-1000" />
+                  <img src="/images/business-dashboard-performance.webp" alt="Best-CRM-software-data-clarity-dashboard" className="absolute inset-0 w-full h-full object-cover group-hover:scale-110 transition-transform duration-1000" />
                   <div className="absolute inset-0 bg-gradient-to-t from-[#111315] via-[#111315]/40 to-transparent opacity-90 group-hover:opacity-70 transition-opacity duration-500"></div>
                   <div className="absolute bottom-0 left-0 p-8">
                     <h4 className="text-2xl font-bold text-white mb-2 font-serif">Data Clarity</h4>
@@ -222,7 +223,7 @@ function ROICalculator() {
 
                 {/* Gallery Card 2 */}
                 <div className="group relative h-[450px] rounded-3xl overflow-hidden border border-white/10 shadow-2xl">
-                  <img src="/images/team-discussion.webp" alt="Best-RM-platforms-in-Calicut" className="absolute inset-0 w-full h-full object-cover group-hover:scale-110 transition-transform duration-1000" />
+                  <img src="/images/team-discussion.webp" alt="Best-CRM-platforms-in-Calicut-team-discussion" className="absolute inset-0 w-full h-full object-cover group-hover:scale-110 transition-transform duration-1000" />
                   <div className="absolute inset-0 bg-gradient-to-t from-[#111315] via-[#111315]/40 to-transparent opacity-90 group-hover:opacity-70 transition-opacity duration-500"></div>
                   <div className="absolute bottom-0 left-0 p-8">
                     <h4 className="text-2xl font-bold text-white mb-2 font-serif">Team Alignment</h4>
@@ -232,7 +233,7 @@ function ROICalculator() {
 
                 {/* Gallery Card 3 */}
                 <div className="group relative h-[450px] rounded-3xl overflow-hidden border border-white/10 shadow-2xl">
-                  <img src="/images/team-discussion-crm-marketing.webp" alt="Best-CRM-software" className="absolute inset-0 w-full h-full object-cover group-hover:scale-110 transition-transform duration-1000" />
+                  <img src="/images/team-discussion-crm-marketing.webp" alt="Best-CRM-software-workflow-mastery" className="absolute inset-0 w-full h-full object-cover group-hover:scale-110 transition-transform duration-1000" />
                   <div className="absolute inset-0 bg-gradient-to-t from-[#111315] via-[#111315]/40 to-transparent opacity-90 group-hover:opacity-70 transition-opacity duration-500"></div>
                   <div className="absolute bottom-0 left-0 p-8">
                     <h4 className="text-2xl font-bold text-white mb-2 font-serif">Workflow Mastery</h4>

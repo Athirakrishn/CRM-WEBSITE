@@ -6,7 +6,8 @@ import Link from 'next/link';
 const faqs = [
   {
     question: "What is CRM software?",
-    answer: <>CRM (Customer Relationship Management) software like Lumeo, one of the leading <strong className="text-gray-200 font-bold">CRM software in Kerala</strong>, helps teams organize leads, manage pipelines, track customer interactions, and stay on top of daily tasks, all in one unified workspace.</>
+    answer: <>CRM (Customer Relationship Management) software like Lumeo, one of the leading <strong className="text-gray-200 font-bold">CRM software in Kerala</strong>, helps teams organize leads, manage pipelines, track customer interactions, and stay on top of daily tasks, all in one unified workspace.</>,
+    plainAnswer: "CRM (Customer Relationship Management) software like Lumeo, one of the leading CRM software in Kerala, helps teams organize leads, manage pipelines, track customer interactions, and stay on top of daily tasks, all in one unified workspace."
   },
   {
     question: "What are popular free CRM software features?",
@@ -31,7 +32,7 @@ const faqs = [
 ];
 
 function FAQSection() {
-  const [openIndex, setOpenIndex] = useState(0); // First item open by default
+  const [openIndex, setOpenIndex] = useState(0);
   const [typedText, setTypedText] = useState('');
   const fullText = 'FAQs About CRM Software in Kerala';
 
@@ -75,14 +76,33 @@ function FAQSection() {
     setOpenIndex(openIndex === index ? null : index);
   };
 
+  // JSON-LD FAQ Schema
+  const faqSchema = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": faqs.map((faq) => ({
+      "@type": "Question",
+      "name": faq.question,
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": faq.plainAnswer || faq.answer
+      }
+    }))
+  };
+
   return (
     <section ref={sectionRef} className="py-10 md:py-24 bg-[#1A1513] text-[#F4F0EB] relative overflow-hidden">
+      {/* JSON-LD Schema */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+      />
+
       {/* Ambient Glow */}
       <div className="absolute top-0 right-0 w-[600px] h-[600px] bg-[#E04B1E] rounded-full blur-[120px] opacity-10 pointer-events-none z-0"></div>
       
       <div className="max-w-3xl mx-auto px-8 relative z-10">
         <div className="text-center mb-16">
-
           <h2 className="sr-only">FAQs About CRM Software in Kerala</h2>
           <h2 className="text-4xl md:text-5xl font-serif font-bold mb-6 text-[#F4F0EB] min-h-[1.2em]">{typedText}</h2>
           <p className="text-xl text-gray-400 leading-relaxed max-w-2xl mx-auto">
@@ -106,7 +126,7 @@ function FAQSection() {
                     {faq.question}
                   </h3>
                   <div className={`shrink-0 w-10 h-10 rounded-full flex items-center justify-center transition-all ${isOpen ? 'bg-brand-orange text-white' : 'bg-[#1A1513] text-gray-400 border border-[#382d28]'}`}>
-                    {isOpen ? <Minus size={20} /> : <Plus size={20} />}
+                    {isOpen ? <Minus size={20} /> : <Plus size={20} />} 
                   </div>
                 </button>
                 
@@ -122,7 +142,7 @@ function FAQSection() {
           })}
         </div>
       </div>
-    </section>
+    </section> 
   );
 }
 
