@@ -24,6 +24,7 @@ function Header() {
     { name: 'Case Studies', path: '/case-studies' },
     { name: 'ROI Calculator', path: '/roi-calculator' },
     { name: 'Why LumeoCRM', path: '/comparison' },
+    { name: 'Blog', path: '/blog' },
   ];
 
   return (

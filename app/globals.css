@@ -172,3 +172,49 @@ h1, h2, h3, h4, h5, h6 {
 .animate-data-flow {
   animation: dashFlow 1s linear infinite;
 }
+
+/* Blog Content Styles */
+.blog-content {
+  color: var(--color-brand-dark);
+  font-family: var(--font-sans);
+}
+
+.blog-content p {
+  margin-bottom: 1.5rem;
+  line-height: 1.8;
+  color: #4b5563; /* text-gray-600 */
+}
+
+.blog-content h2 {
+  font-size: 1.875rem; /* 3xl */
+  font-weight: 700;
+  color: #111827; /* text-gray-900 */
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
+  font-family: var(--font-serif);
+}
+
+.blog-content h3 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #1f2937;
+  margin-top: 2rem;
+  margin-bottom: 0.75rem;
+}
+
+.blog-content ul {
+  list-style-type: disc;
+  padding-left: 1.5rem;
+  margin-bottom: 1.5rem;
+  color: #4b5563;
+}
+
+.blog-content li {
+  margin-bottom: 0.5rem;
+  line-height: 1.7;
+}
+
+.blog-content strong {
+  font-weight: 600;
+  color: #111827;
+}
