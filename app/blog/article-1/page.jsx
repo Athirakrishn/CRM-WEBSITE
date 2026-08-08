@@ -4,52 +4,67 @@ import Header from '@/components/Header';
 import { ArrowLeft } from 'lucide-react';
 import { blogPosts } from '@/data/blogPosts';
 
-export default function BlogPostPage() {
-  const post = blogPosts.find(p => p.slug === "article-1");
+export const metadata = {
+  title: 'Best CRM Software in Kerala for Growing Businesses',
+  description:
+    'Discover how the best CRM software in Kerala helps businesses manage leads, customers, sales, follow-ups, and business relationships efficiently.',
+};
 
-  if (!post) return <div>Post not found</div>;
+export default function BlogPostPage() {
+  const post = blogPosts.find((p) => p.slug === 'article-1');
+
+  if (!post) {
+    return <div>Post not found</div>;
+  }
 
   return (
     <>
       <Header />
-      <div className="min-h-screen bg-gray-50 pb-24">
-        {/* Hero Image Section */}
-        <div className="w-full h-[50vh] relative">
-          <img 
-            src={post.imageUrl} 
-            alt={post.title} 
-            className="w-full h-full object-cover"
-          />
-          <div className="absolute inset-0 bg-black/40 flex items-center justify-center">
-            <div className="max-w-4xl mx-auto px-4 text-center">
-              <span className="inline-block px-4 py-1.5 mb-6 text-sm font-bold uppercase tracking-widest text-white bg-brand-orange rounded-full">
-                {post.category}
-              </span>
-              <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold text-white mb-6 leading-tight drop-shadow-lg">
-                {post.title}
-              </h1>
-              <div className="flex items-center justify-center gap-4 text-white/90 font-medium">
-                <span>{post.author}</span>
-                <span>•</span>
-                <span>{post.date}</span>
-              </div>
-            </div>
-          </div>
-        </div>
 
-        {/* Content Section */}
-        <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 -mt-16 relative z-10">
-          <div className="bg-white rounded-2xl shadow-xl p-8 md:p-12">
-            <Link href="/blog" className="inline-flex items-center text-gray-500 hover:text-brand-orange mb-8 transition-colors">
-              <ArrowLeft className="w-4 h-4 mr-2" />
-              Back to all articles
-            </Link>
-            
-            <div 
-              className="blog-content text-gray-700 leading-relaxed text-lg"
+      <div className="min-h-screen bg-white pb-24 pt-12 md:pt-20">
+        <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+
+          <Link
+            href="/blog"
+            className="inline-flex items-center text-gray-500 hover:text-brand-orange mb-8 transition-colors text-sm font-medium"
+          >
+            <ArrowLeft className="w-4 h-4 mr-2" />
+            Back to all articles
+          </Link>
+
+          <header className="mb-10 text-center md:text-left">
+            <span className="inline-block px-3 py-1 mb-4 text-xs font-bold uppercase tracking-wider text-brand-orange bg-orange-50 rounded-full">
+              {post.category}
+            </span>
+
+            <h1 className="text-4xl md:text-5xl font-extrabold text-gray-900 mb-6 leading-tight tracking-tight">
+              {post.title}
+            </h1>
+
+            <div className="flex items-center justify-center md:justify-start gap-3 text-gray-600 text-sm font-medium">
+              <span className="font-semibold text-gray-800">
+                {post.author}
+              </span>
+              <span>•</span>
+              <span>{post.date}</span>
+            </div>
+          </header>
+
+          <div className="mb-12 rounded-2xl overflow-hidden shadow-sm border border-gray-100">
+            <img
+              src={post.imageUrl}
+              alt={post.title}
+              className="w-full h-auto object-cover aspect-video"
+            />
+          </div>
+
+          <div className="prose prose-lg max-w-none text-gray-700 leading-relaxed">
+            <div
+              className="blog-content"
               dangerouslySetInnerHTML={{ __html: post.content }}
             />
           </div>
+
         </div>
       </div>
     </>
