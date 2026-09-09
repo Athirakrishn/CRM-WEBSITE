@@ -5,9 +5,9 @@ import { ArrowLeft } from 'lucide-react';
 import { blogPosts } from '@/data/blogPosts';
 
 export const metadata = {
-  title: 'Mastering the Sales Pipeline: Stages, Best Practices & Forecasting',
+  title: 'Which CRM Is Best for Small Business? A Complete Guide to Choosing the Best CRM Software in Kerala',
   description:
-    'Explore how to build and optimize an end-to-end sales pipeline that increases conversion rates and provides accurate revenue forecasting.',
+    'Choosing the right CRM can be challenging for a small business. Discover what features, pricing, and support a small business in Kerala should look for when selecting a CRM.',
 };
 
 export default function BlogPostPage() {
