@@ -5,9 +5,9 @@ import { ArrowLeft } from 'lucide-react';
 import { blogPosts } from '@/data/blogPosts';
 
 export const metadata = {
-  title: 'Automated Quotations and Invoicing in CRM: Save Time & Get Paid Faster',
+  title: 'Does CRM Support WhatsApp? A Guide to Choosing the Best CRM Software in Kerala',
   description:
-    'Learn how built-in quotation and invoice automation inside CRM software eliminates manual paperwork, minimizes billing errors, and speeds up collections.',
+    'Discover if CRM software supports WhatsApp, what features WhatsApp CRM integration provides, and how businesses in Kerala can use it to convert leads and improve sales.',
 };
 
 export default function BlogPostPage() {

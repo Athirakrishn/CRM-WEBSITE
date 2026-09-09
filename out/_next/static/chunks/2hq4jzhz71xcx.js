@@ -1,14 +1,4 @@
-export const blogPosts = [
-  {
-    id: "1",
-    slug: "article-1",
-    title: 'What is CRM Software? A Complete Guide for Modern Businesses',
-    excerpt: 'Learn what CRM software is, its key features, benefits, and how it helps businesses of all sizes improve sales and customer relationships.',
-    date: 'Aug 07, 2026',
-    author: 'Product Team',
-    imageUrl: 'https://images.unsplash.com/photo-1551434678-e076c223a692?w=1200&q=80',
-    category: 'Product Update',
-    content: `
+(globalThis.TURBOPACK||(globalThis.TURBOPACK=[])).push(["object"==typeof document?document.currentScript:void 0,46227,e=>{"use strict";var t=e.i(43476);e.i(71645);var s=e.i(22016),a=e.i(16619);let o=[{id:"1",slug:"article-1",title:"What is CRM Software? A Complete Guide for Modern Businesses",excerpt:"Learn what CRM software is, its key features, benefits, and how it helps businesses of all sizes improve sales and customer relationships.",date:"Aug 07, 2026",author:"Product Team",imageUrl:"https://images.unsplash.com/photo-1551434678-e076c223a692?w=1200&q=80",category:"Product Update",content:`
       <p>Customer Relationship Management (CRM) software is a business solution that helps companies manage customer information, sales activities, leads, follow-ups, quotations, invoices, and customer support from a single platform. Instead of maintaining customer details in spreadsheets or notebooks, a CRM system keeps everything organized in one secure location.</p>
       <p>Businesses of all sizes use CRM software to improve productivity, build stronger customer relationships, and increase sales. Whether you are a startup, a small business, or a large enterprise, CRM software can simplify your daily operations and help your team work more efficiently.</p>
       
@@ -101,36 +91,14 @@ export const blogPosts = [
       <h2>Conclusion</h2>
       <p>CRM software has become an essential business tool for organizations that want to improve customer relationships, streamline sales processes, and increase productivity. From lead management and sales pipeline tracking to invoicing and customer support, a modern CRM system helps businesses operate more efficiently.</p>
       <p>If your goal is to grow your business, improve customer satisfaction, and automate daily operations, investing in the right CRM software is a smart long-term decision.</p>
-    `
-  },
-  {
-    id: "2",
-    slug: "article-2",
-    title: 'The Future of Customer Relationship Management in 2027',
-    excerpt: 'As we approach a new year, explore the trends and technologies that will shape the future of CRM and customer engagement.',
-    date: 'Jul 24, 2026',
-    author: 'Industry Insights',
-    imageUrl: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=1200&q=80',
-    category: 'Trends',
-    content: `
+    `},{id:"2",slug:"article-2",title:"The Future of Customer Relationship Management in 2027",excerpt:"As we approach a new year, explore the trends and technologies that will shape the future of CRM and customer engagement.",date:"Jul 24, 2026",author:"Industry Insights",imageUrl:"https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=1200&q=80",category:"Trends",content:`
       <p>Customer Relationship Management is evolving at a breakneck pace. Driven by advancements in artificial intelligence, changing consumer expectations, and the need for hyper-personalization, the CRM landscape of 2027 will look vastly different from what we know today.</p>
       <h2>AI-Driven Predictive Analytics</h2>
       <p>Gone are the days of reactive customer service. In the near future, CRMs will leverage deep learning algorithms to predict customer needs before they even arise. Imagine a system that alerts your sales team to a client's potential churn risk based on subtle shifts in their engagement patterns, allowing you to intervene proactively.</p>
       <h2>The Unified Customer View</h2>
       <p>Silos are the enemy of excellent customer experience. The future of CRM lies in a truly unified, 360-degree view of the customer, seamlessly integrating data from marketing, sales, support, and even external touchpoints like social media and product usage.</p>
       <p>As we build the future of LumeoCRM, these trends are at the forefront of our product roadmap, ensuring you always have the cutting-edge tools needed to delight your customers.</p>
-    `
-  },
-  {
-    id: "3",
-    slug: "article-3",
-    title: 'Maximizing ROI: Best Practices for Implementing CRM',
-    excerpt: 'Learn the key strategies for a successful CRM implementation that guarantees maximum return on investment for your enterprise.',
-    date: 'Jul 12, 2026',
-    author: 'Customer Success',
-    imageUrl: 'https://images.unsplash.com/photo-1553877522-43269d4ea984?w=1200&q=80',
-    category: 'Best Practices',
-    content: `
+    `},{id:"3",slug:"article-3",title:"Maximizing ROI: Best Practices for Implementing CRM",excerpt:"Learn the key strategies for a successful CRM implementation that guarantees maximum return on investment for your enterprise.",date:"Jul 12, 2026",author:"Customer Success",imageUrl:"https://images.unsplash.com/photo-1553877522-43269d4ea984?w=1200&q=80",category:"Best Practices",content:`
       <p>Implementing a new CRM system is a significant investment of time, money, and resources. However, without a strategic approach, many organizations fail to realize the full potential of their new technology. Here are the essential best practices for a successful rollout.</p>
       <h2>1. Define Clear Objectives</h2>
       <p>Before touching any software, you must know what you're trying to achieve. Are you looking to increase sales velocity, improve customer retention, or streamline reporting? Setting specific, measurable goals will guide your configuration choices and provide a benchmark for success.</p>
@@ -138,18 +106,7 @@ export const blogPosts = [
       <p>The best CRM in the world is useless if your team doesn't use it. Involve key stakeholders from the very beginning, provide comprehensive training, and highlight how the system will make their daily lives easier, not harder.</p>
       <h2>3. Clean Your Data First</h2>
       <p>Garbage in, garbage out. Migrating messy, outdated data into a new system is a recipe for disaster. Take the time to audit, clean, and deduplicate your records before the transition. A clean slate ensures high data integrity and user trust from day one.</p>
-    `
-  },
-  {
-    id: "4",
-    slug: "article-4",
-    title: 'How to Align Sales and Marketing for Explosive Growth',
-    excerpt: 'Break down silos and align your sales and marketing teams to drive unprecedented revenue growth.',
-    date: 'Jun 30, 2026',
-    author: 'Growth Team',
-    imageUrl: 'https://images.unsplash.com/photo-1552664730-d307ca884978?w=1200&q=80',
-    category: 'Strategy',
-    content: `
+    `},{id:"4",slug:"article-4",title:"How to Align Sales and Marketing for Explosive Growth",excerpt:"Break down silos and align your sales and marketing teams to drive unprecedented revenue growth.",date:"Jun 30, 2026",author:"Growth Team",imageUrl:"https://images.unsplash.com/photo-1552664730-d307ca884978?w=1200&q=80",category:"Strategy",content:`
       <p>When sales and marketing teams operate in silos, growth stagnates. Alignment between these two critical departments is the secret weapon of the fastest-growing companies.</p>
       <h2>Shared Goals and Metrics</h2>
       <p>Alignment starts with shared objectives. Instead of marketing focusing solely on lead volume and sales focusing solely on closed deals, both teams should be measured on revenue generated. Establish a Service Level Agreement (SLA) that outlines mutual expectations.</p>
@@ -157,18 +114,7 @@ export const blogPosts = [
       <p>A unified CRM like LumeoCRM ensures that both teams are looking at the exact same data. Marketing can see how their campaigns are impacting the pipeline, and sales can see the entire history of a prospect's engagement before picking up the phone.</p>
       <h2>Continuous Feedback Loops</h2>
       <p>Schedule regular meetings between sales and marketing leadership to discuss lead quality, campaign performance, and market feedback. This open communication is vital for iterating and improving your overall strategy.</p>
-    `
-  },
-  {
-    id: "5",
-    slug: "article-5",
-    title: 'Top 5 Customer Retention Strategies for SaaS Companies',
-    excerpt: 'Acquiring new customers is expensive. Learn how to keep them around longer with these proven retention strategies.',
-    date: 'Jun 15, 2026',
-    author: 'Customer Success',
-    imageUrl: 'https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=1200&q=80',
-    category: 'Best Practices',
-    content: `
+    `},{id:"5",slug:"article-5",title:"Top 5 Customer Retention Strategies for SaaS Companies",excerpt:"Acquiring new customers is expensive. Learn how to keep them around longer with these proven retention strategies.",date:"Jun 15, 2026",author:"Customer Success",imageUrl:"https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=1200&q=80",category:"Best Practices",content:`
       <p>In the SaaS industry, churn is the silent killer. Increasing your customer retention rate by just 5% can increase profits by 25% to 95%. Here are the top strategies to keep your customers engaged and loyal.</p>
       <h2>1. Flawless Onboarding</h2>
       <p>The first few weeks are critical. A structured onboarding process ensures users see the value of your product immediately. Use LumeoCRM's automated emails to guide them through key features.</p>
@@ -176,18 +122,7 @@ export const blogPosts = [
       <p>Don't wait for customers to come to you with problems. Use product usage data to identify accounts that are struggling or underutilizing features, and reach out proactively to offer assistance.</p>
       <h2>3. Build a Community</h2>
       <p>Foster a sense of belonging by creating a community where users can interact, share best practices, and provide feedback. A strong community significantly increases switching costs.</p>
-    `
-  },
-  {
-    id: "6",
-    slug: "article-6",
-    title: 'Data Privacy in 2026: What Every Business Needs to Know',
-    excerpt: 'Navigate the complex landscape of global data privacy regulations and ensure your CRM practices are compliant.',
-    date: 'May 28, 2026',
-    author: 'Security Team',
-    imageUrl: 'https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=1200&q=80',
-    category: 'Security',
-    content: `
+    `},{id:"6",slug:"article-6",title:"Data Privacy in 2026: What Every Business Needs to Know",excerpt:"Navigate the complex landscape of global data privacy regulations and ensure your CRM practices are compliant.",date:"May 28, 2026",author:"Security Team",imageUrl:"https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=1200&q=80",category:"Security",content:`
       <p>With regulations like GDPR, CCPA, and emerging frameworks worldwide, data privacy is no longer an IT issue; it's a board-level imperative. How you manage customer data in your CRM is under strict scrutiny.</p>
       <h2>Consent is King</h2>
       <p>Ensure that you have explicit, documented consent for every piece of data you collect. LumeoCRM provides built-in tools to manage consent preferences across all channels.</p>
@@ -195,18 +130,7 @@ export const blogPosts = [
       <p>Only collect what you absolutely need. The more data you hold, the greater your liability. Regularly audit your CRM fields and purge outdated or unnecessary information.</p>
       <h2>Robust Security Measures</h2>
       <p>Implement multi-factor authentication, role-based access control, and end-to-end encryption. Security is built into the core of LumeoCRM to protect your most sensitive customer data.</p>
-    `
-  },
-  {
-    id: "7",
-    slug: "article-7",
-    title: 'The Art of the Follow-Up: Templates That Actually Convert',
-    excerpt: 'Stop sending "just checking in" emails. Discover follow-up strategies that add value and drive responses.',
-    date: 'May 10, 2026',
-    author: 'Sales Excellence',
-    imageUrl: 'https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=1200&q=80',
-    category: 'Tips & Tricks',
-    content: `
+    `},{id:"7",slug:"article-7",title:"The Art of the Follow-Up: Templates That Actually Convert",excerpt:'Stop sending "just checking in" emails. Discover follow-up strategies that add value and drive responses.',date:"May 10, 2026",author:"Sales Excellence",imageUrl:"https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=1200&q=80",category:"Tips & Tricks",content:`
       <p>The fortune is in the follow-up, but most salespeople go about it the wrong way. Generic "just checking in" emails are easily ignored. You need to add value with every touchpoint.</p>
       <h2>The Value-Add Approach</h2>
       <p>Instead of asking for an update, provide something useful. Share a relevant industry report, a case study, or a quick tip related to the challenge they mentioned in your last call.</p>
@@ -214,18 +138,7 @@ export const blogPosts = [
       <p>Don't rely on a single point of contact. If your champion goes dark, reach out to other stakeholders in the organization. LumeoCRM helps you map the entire buying committee visually.</p>
       <h2>Automate the Persistence</h2>
       <p>Use LumeoCRM's sequences to automate your follow-up cadence. Combine emails, LinkedIn touches, and phone calls into a multi-channel approach that guarantees you stay top-of-mind.</p>
-    `
-  },
-  {
-    id: "8",
-    slug: "article-8",
-    title: 'Case Study: How TechNova Increased Sales Velocity by 45%',
-    excerpt: 'An in-depth look at how TechNova utilized LumeoCRM to overhaul their sales process and achieve record-breaking quarters.',
-    date: 'Apr 22, 2026',
-    author: 'Case Studies',
-    imageUrl: 'https://images.unsplash.com/photo-1556761175-4b46a572b786?w=1200&q=80',
-    category: 'Success Story',
-    content: `
+    `},{id:"8",slug:"article-8",title:"Case Study: How TechNova Increased Sales Velocity by 45%",excerpt:"An in-depth look at how TechNova utilized LumeoCRM to overhaul their sales process and achieve record-breaking quarters.",date:"Apr 22, 2026",author:"Case Studies",imageUrl:"https://images.unsplash.com/photo-1556761175-4b46a572b786?w=1200&q=80",category:"Success Story",content:`
       <p>TechNova, a rapidly growing B2B software provider, was struggling with a bloated sales pipeline and long deal cycles. They turned to LumeoCRM to bring order to the chaos.</p>
       <h2>The Challenge</h2>
       <p>Sales reps were spending hours manually updating spreadsheets, and leadership had no real-time visibility into the pipeline. Deals were slipping through the cracks due to poor follow-up.</p>
@@ -233,18 +146,7 @@ export const blogPosts = [
       <p>TechNova implemented LumeoCRM's automated workflows to handle lead routing and initial outreach. They also utilized our advanced forecasting tools to gain predictability.</p>
       <h2>The Results</h2>
       <p>Within six months, TechNova reduced their average sales cycle from 90 days to 50 days, increasing overall sales velocity by 45%. Read the full case study to see their exact implementation roadmap.</p>
-    `
-  },
-  {
-    id: "9",
-    slug: "article-9",
-    title: 'Understanding Lead Scoring and Why You Need It',
-    excerpt: 'Stop wasting time on unqualified leads. Learn how to implement a lead scoring model that prioritizes your best prospects.',
-    date: 'Apr 05, 2026',
-    author: 'Marketing Strategy',
-    imageUrl: 'https://images.unsplash.com/photo-1434626881859-194d67b2b86f?w=1200&q=80',
-    category: 'Marketing',
-    content: `
+    `},{id:"9",slug:"article-9",title:"Understanding Lead Scoring and Why You Need It",excerpt:"Stop wasting time on unqualified leads. Learn how to implement a lead scoring model that prioritizes your best prospects.",date:"Apr 05, 2026",author:"Marketing Strategy",imageUrl:"https://images.unsplash.com/photo-1434626881859-194d67b2b86f?w=1200&q=80",category:"Marketing",content:`
       <p>Not all leads are created equal. Lead scoring is the methodology used to rank prospects against a scale that represents the perceived value each lead represents to the organization.</p>
       <h2>Demographic vs. Behavioral Scoring</h2>
       <p>A good model incorporates both explicit data (demographics, company size, job title) and implicit data (website visits, email opens, webinar attendance). LumeoCRM tracks both automatically.</p>
@@ -252,18 +154,7 @@ export const blogPosts = [
       <p>Start simple. Assign points for high-value actions like requesting a demo or visiting the pricing page. Deduct points for inactivity or negative traits like using a generic email address.</p>
       <h2>Continuous Optimization</h2>
       <p>Lead scoring isn't set-it-and-forget-it. Regularly review your scores with the sales team to ensure that the leads deemed "marketing qualified" are actually converting into opportunities.</p>
-    `
-  },
-  {
-    id: "10",
-    slug: "article-10",
-    title: 'Introducing LumeoCRM Mobile: Manage Deals on the Go',
-    excerpt: 'Take your sales pipeline everywhere with the completely redesigned LumeoCRM mobile app for iOS and Android.',
-    date: 'Mar 18, 2026',
-    author: 'Product Update',
-    imageUrl: 'https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=1200&q=80',
-    category: 'Product Update',
-    content: `
+    `},{id:"10",slug:"article-10",title:"Introducing LumeoCRM Mobile: Manage Deals on the Go",excerpt:"Take your sales pipeline everywhere with the completely redesigned LumeoCRM mobile app for iOS and Android.",date:"Mar 18, 2026",author:"Product Update",imageUrl:"https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=1200&q=80",category:"Product Update",content:`
       <p>Sales don't just happen at your desk. Whether you're traveling to a conference, commuting, or simply away from your computer, you need access to your critical CRM data. That's why we built the new LumeoCRM mobile app.</p>
       <h2>Everything You Need, In Your Pocket</h2>
       <p>The new app provides full access to your contacts, accounts, and deals. You can log calls, send emails, and update deal stages with a few taps.</p>
@@ -272,18 +163,7 @@ export const blogPosts = [
       <h2>Voice-to-Text Logging</h2>
       <p>Don't waste time typing out meeting notes on a tiny keyboard. Use our integrated voice-to-text feature to dictate your notes immediately after a client meeting, ensuring nothing is forgotten.</p>
       <p>Download the new LumeoCRM app today from the App Store or Google Play.</p>
-    `
-  },
-  {
-    id: "11",
-    slug: "article-11",
-    title: 'Best CRM Software in Kerala: How to Choose the Right CRM at the Best Price',
-    excerpt: 'Finding the Best CRM Software in Kerala is not only about choosing the software with the lowest price. Businesses need to consider features, usability, customization, support, integrations, and overall value before investing in a CRM.',
-    date: 'Feb 14, 2026',
-    author: 'Product Team',
-    imageUrl: 'https://images.unsplash.com/photo-1552664730-d307ca884978?w=1200&q=80',
-    category: 'Buying Guide',
-    content: `
+    `},{id:"11",slug:"article-11",title:"Best CRM Software in Kerala: How to Choose the Right CRM at the Best Price",excerpt:"Finding the Best CRM Software in Kerala is not only about choosing the software with the lowest price. Businesses need to consider features, usability, customization, support, integrations, and overall value before investing in a CRM.",date:"Feb 14, 2026",author:"Product Team",imageUrl:"https://images.unsplash.com/photo-1552664730-d307ca884978?w=1200&q=80",category:"Buying Guide",content:`
       <p>Finding the <strong>Best CRM Software in Kerala</strong> is not only about choosing the software with the lowest price. Businesses need to consider features, usability, customization, support, integrations, and overall value before investing in a CRM.</p>
       <p>For small and growing businesses, the right CRM can help manage leads, improve follow-ups, organize sales activities, and build stronger customer relationships without unnecessary software expenses.</p>
 
@@ -398,18 +278,7 @@ export const blogPosts = [
       <p>The <strong>Best CRM Software in Kerala</strong> is not necessarily the cheapest software available.</p>
       <p>The right CRM should provide the features your business needs, remain affordable as your business grows, be easy for your team to use, and provide reliable support.</p>
       <p>If you are comparing CRM solutions in Kerala, focus on <strong>pricing, features, customization, automation, integrations, support, and long-term value</strong> before making your final decision.</p>
-    `
-  },
-  {
-    id: "12",
-    slug: "article-12",
-    title: 'Is CRM Easy to Use? A Guide to Choosing the Best CRM Software in Kerala',
-    excerpt: 'Many businesses think that CRM software is complicated and difficult to use. Discover how easy-to-use CRM software in Kerala helps your team adopt software quickly and improve sales.',
-    date: 'Jan 28, 2026',
-    author: 'Product Team',
-    imageUrl: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=1200&q=80',
-    category: 'Usability & Guide',
-    content: `
+    `},{id:"12",slug:"article-12",title:"Is CRM Easy to Use? A Guide to Choosing the Best CRM Software in Kerala",excerpt:"Many businesses think that CRM software is complicated and difficult to use. Discover how easy-to-use CRM software in Kerala helps your team adopt software quickly and improve sales.",date:"Jan 28, 2026",author:"Product Team",imageUrl:"https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=1200&q=80",category:"Usability & Guide",content:`
       <p>Many businesses think that CRM software is complicated and difficult to use. But modern CRM systems are designed to make daily business activities easier, not harder.</p>
       <p>If you are looking for the <strong>Best CRM Software in Kerala</strong>, one of the most important things to consider is how easy the software is for your team to understand and use.</p>
       <p>A CRM can have hundreds of features, but if your employees find it difficult to use, it may not provide the expected value.</p>
@@ -538,18 +407,7 @@ export const blogPosts = [
       <p>If you are searching for the <strong>Best CRM Software in Kerala</strong>, don't compare software based only on price or the number of features.</p>
       <p>Compare <strong>ease of use, features, pricing, customization, automation, mobile access, and customer support</strong> together.</p>
       <p>A CRM that your team understands and uses every day can provide much more value than a complicated system with features your business never uses.</p>
-    `
-  },
-  {
-    id: "13",
-    slug: "article-13",
-    title: 'Which CRM Is Best for Small Business? A Complete Guide to Choosing the Best CRM Software in Kerala',
-    excerpt: 'Choosing the right CRM can be challenging for a small business. Discover what features, pricing, and support a small business in Kerala should look for when selecting a CRM.',
-    date: 'Jan 15, 2026',
-    author: 'Product Team',
-    imageUrl: 'https://images.unsplash.com/photo-1551836022-d5d88e9218df?w=1200&q=80',
-    category: 'Buying Guide',
-    content: `
+    `},{id:"13",slug:"article-13",title:"Which CRM Is Best for Small Business? A Complete Guide to Choosing the Best CRM Software in Kerala",excerpt:"Choosing the right CRM can be challenging for a small business. Discover what features, pricing, and support a small business in Kerala should look for when selecting a CRM.",date:"Jan 15, 2026",author:"Product Team",imageUrl:"https://images.unsplash.com/photo-1551836022-d5d88e9218df?w=1200&q=80",category:"Buying Guide",content:`
       <p>Choosing the right CRM can be challenging for a small business. There are many CRM platforms available, but not every CRM is suitable for every business.</p>
       <p>Small businesses usually need a CRM that is <strong>affordable, easy to use, simple to implement, and powerful enough to manage leads, customers, sales, and follow-ups</strong>.</p>
       <p>If you are searching for the <strong>Best CRM Software in Kerala</strong>, this guide will help you understand what a small business should look for before choosing a CRM.</p>
@@ -748,18 +606,7 @@ export const blogPosts = [
       <p>The best CRM is one that combines <strong>affordable pricing, ease of use, essential features, customization, automation, integrations, and reliable support</strong>.</p>
       <p>If you are looking for the <strong>Best CRM Software in Kerala</strong>, compare different solutions based on your business requirements rather than choosing a CRM simply because it is popular or inexpensive.</p>
       <p>The right CRM should help your business <strong>manage leads, improve follow-ups, organize customer information, increase sales efficiency, and grow without unnecessary complexity.</strong></p>
-    `
-  },
-  {
-    id: "14",
-    slug: "article-14",
-    title: 'Does CRM Support WhatsApp? A Guide to Choosing the Best CRM Software in Kerala',
-    excerpt: 'Discover if CRM software supports WhatsApp, what features WhatsApp CRM integration provides, and how businesses in Kerala can use it to convert leads and improve sales.',
-    date: 'Dec 30, 2025',
-    author: 'Product Team',
-    imageUrl: 'https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?w=1200&q=80',
-    category: 'WhatsApp CRM',
-    content: `
+    `},{id:"14",slug:"article-14",title:"Does CRM Support WhatsApp? A Guide to Choosing the Best CRM Software in Kerala",excerpt:"Discover if CRM software supports WhatsApp, what features WhatsApp CRM integration provides, and how businesses in Kerala can use it to convert leads and improve sales.",date:"Dec 30, 2025",author:"Product Team",imageUrl:"https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?w=1200&q=80",category:"WhatsApp CRM",content:`
       <p>WhatsApp has become one of the most common ways for businesses to communicate with customers. Leads, enquiries, quotations, follow-ups, and customer questions often start through WhatsApp.</p>
       <p>This raises an important question for businesses looking for <strong>CRM Software</strong>:</p>
       <p><strong>Does CRM support WhatsApp?</strong></p>
@@ -925,18 +772,7 @@ export const blogPosts = [
       <p>If your business receives a large number of enquiries through WhatsApp, choosing the right <strong>CRM Software</strong> can help you organize leads, manage customer conversations, automate follow-ups, and improve sales visibility.</p>
       <p>When searching for the <strong>Best CRM Software in Kerala</strong>, look beyond WhatsApp integration and compare the complete solution — including <strong>lead management, sales pipeline, automation, pricing, customization, reporting, and support</strong>.</p>
       <p>The right CRM can turn WhatsApp from simply a communication tool into an important part of your structured sales process.</p>
-    `
-  },
-  {
-    id: "15",
-    slug: "article-15",
-    title: 'Omnichannel Customer Support: Connecting Calls, Email, and Chat in One CRM',
-    excerpt: 'Customers expect seamless service across touchpoints. Discover how omnichannel CRM centralizes tickets, chat transcripts, and phone logs into a single profile.',
-    date: 'Dec 12, 2025',
-    author: 'Customer Experience Team',
-    imageUrl: 'https://images.unsplash.com/photo-1534536281715-e28d76689b4d?w=1200&q=80',
-    category: 'Customer Success',
-    content: `
+    `},{id:"15",slug:"article-15",title:"Omnichannel Customer Support: Connecting Calls, Email, and Chat in One CRM",excerpt:"Customers expect seamless service across touchpoints. Discover how omnichannel CRM centralizes tickets, chat transcripts, and phone logs into a single profile.",date:"Dec 12, 2025",author:"Customer Experience Team",imageUrl:"https://images.unsplash.com/photo-1534536281715-e28d76689b4d?w=1200&q=80",category:"Customer Success",content:`
       <p>Nothing frustrates a client more than having to explain their issue to three different representatives over phone, email, and live chat. Omnichannel CRM breaks down these barriers by unifying all communication into a single timeline.</p>
       <h2>Multichannel vs. Omnichannel: The Critical Difference</h2>
       <p>Multichannel simply means you offer multiple communication channels. Omnichannel means those channels are synchronized. A customer can start a query on WhatsApp, follow up via email, and call your support line—with every agent having complete visibility of the entire history.</p>
@@ -948,18 +784,7 @@ export const blogPosts = [
         <li><strong>SLA Tracking & Escalations:</strong> Alert team leaders if high-priority inquiries remain unanswered beyond predefined response limits.</li>
       </ul>
       <p>Delivering prompt, context-aware service turns satisfied customers into vocal brand advocates.</p>
-    `
-  },
-  {
-    id: "16",
-    slug: "article-16",
-    title: 'How to Build a High-Converting Email Follow-up Sequence',
-    excerpt: 'Over 80% of sales require at least five follow-ups. Master the art of automated, personalized email sequences that keep leads engaged without annoying them.',
-    date: 'Nov 25, 2025',
-    author: 'Marketing Strategy',
-    imageUrl: 'https://images.unsplash.com/photo-1596524430615-b46475ddff6e?w=1200&q=80',
-    category: 'Marketing',
-    content: `
+    `},{id:"16",slug:"article-16",title:"How to Build a High-Converting Email Follow-up Sequence",excerpt:"Over 80% of sales require at least five follow-ups. Master the art of automated, personalized email sequences that keep leads engaged without annoying them.",date:"Nov 25, 2025",author:"Marketing Strategy",imageUrl:"https://images.unsplash.com/photo-1596524430615-b46475ddff6e?w=1200&q=80",category:"Marketing",content:`
       <p>The vast majority of deals are not won on the initial contact. Industry benchmarks consistently indicate that over 80% of sales require five or more follow-up interactions. Yet, nearly half of salespeople abandon outreach after a single attempt.</p>
       <h2>Designing a Five-Touch Follow-up Blueprint</h2>
       <p>A strategic sequence balances gentle persistence with meaningful value:</p>
@@ -972,18 +797,7 @@ export const blogPosts = [
       </ul>
       <h2>Personalization at Scale with CRM</h2>
       <p>Automated sequences should never read like robotic broadcasts. Using dynamic CRM merge tags (first name, company, pain point, industry), your emails remain authentic, warm, and hyper-relevant.</p>
-    `
-  },
-  {
-    id: "17",
-    slug: "article-17",
-    title: 'CRM for Real Estate: Managing Property Inquiries, Site Visits, and Bookings',
-    excerpt: 'Real estate brokers and developers handle high inquiry volumes every day. Discover how vertical CRM workflows organize site visits, bookings, and agent commissions.',
-    date: 'Nov 10, 2025',
-    author: 'Real Estate Solutions',
-    imageUrl: 'https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=1200&q=80',
-    category: 'Industry Guide',
-    content: `
+    `},{id:"17",slug:"article-17",title:"CRM for Real Estate: Managing Property Inquiries, Site Visits, and Bookings",excerpt:"Real estate brokers and developers handle high inquiry volumes every day. Discover how vertical CRM workflows organize site visits, bookings, and agent commissions.",date:"Nov 10, 2025",author:"Real Estate Solutions",imageUrl:"https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=1200&q=80",category:"Industry Guide",content:`
       <p>The real estate sector operates in a high-ticket, fast-paced environment where lead response speed and scheduled site visits make or break deals. Without specialized CRM software, inquiries from property portals get lost in email inboxes and prospect interest quickly cools down.</p>
       <h2>Essential Real Estate CRM Modules</h2>
       <ul>
@@ -994,18 +808,7 @@ export const blogPosts = [
       </ul>
       <h2>Maximizing Broker & Channel Partner Collaboration</h2>
       <p>Equip your external brokers with a dedicated partner portal where they can register buyer leads, track deal verification, and check commission disbursements transparently.</p>
-    `
-  },
-  {
-    id: "18",
-    slug: "article-18",
-    title: 'The Executive Guide to CRM Analytics & Sales Performance Dashboards',
-    excerpt: 'Move beyond vanity metrics. Discover the essential KPI dashboards business leaders need to evaluate sales velocity, team performance, and customer acquisition costs.',
-    date: 'Oct 28, 2025',
-    author: 'Business Intelligence',
-    imageUrl: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1200&q=80',
-    category: 'Analytics',
-    content: `
+    `},{id:"18",slug:"article-18",title:"The Executive Guide to CRM Analytics & Sales Performance Dashboards",excerpt:"Move beyond vanity metrics. Discover the essential KPI dashboards business leaders need to evaluate sales velocity, team performance, and customer acquisition costs.",date:"Oct 28, 2025",author:"Business Intelligence",imageUrl:"https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1200&q=80",category:"Analytics",content:`
       <p>Data without actionable insight is merely noise. While standard reports might tell you how many calls were made this week, executive dashboards should deliver the strategic clarity required to allocate capital, forecast quarterly earnings, and optimize human resources.</p>
       <h2>The 4 Pillars of Executive CRM Dashboards</h2>
       <ul>
@@ -1015,18 +818,7 @@ export const blogPosts = [
         <li><strong>4. Win/Loss Analysis by Competitor & Objection:</strong> Identify why deals are lost—whether due to pricing, feature gaps, or implementation time—to direct product and marketing roadmaps.</li>
       </ul>
       <p>LumeoCRM's interactive dashboards allow CEOs and Sales Directors to filter real-time data across branch locations, sales divisions, and individual reps with zero latency.</p>
-    `
-  },
-  {
-    id: "19",
-    slug: "article-19",
-    title: 'Employee Attendance and Task Management Inside CRM: Why Unified Ops Win',
-    excerpt: 'Combining HR attendance, task allocation, and CRM sales tracking into one platform removes software bloat and brings total operational clarity.',
-    date: 'Oct 14, 2025',
-    author: 'People & Ops',
-    imageUrl: 'https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=1200&q=80',
-    category: 'Operations',
-    content: `
+    `},{id:"19",slug:"article-19",title:"Employee Attendance and Task Management Inside CRM: Why Unified Ops Win",excerpt:"Combining HR attendance, task allocation, and CRM sales tracking into one platform removes software bloat and brings total operational clarity.",date:"Oct 14, 2025",author:"People & Ops",imageUrl:"https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=1200&q=80",category:"Operations",content:`
       <p>Historically, businesses have maintained separate applications for customer management, human resource attendance, and project task management. This fragmentation causes context switching, duplicate user licensing fees, and disjointed team workflows.</p>
       <h2>The Power of Unified Operations</h2>
       <p>Integrating employee attendance and daily task assignment directly within your CRM creates a single source of operational truth for both leadership and staff.</p>
@@ -1037,18 +829,7 @@ export const blogPosts = [
         <li><strong>Streamlined Administrative Overhead:</strong> One login, one platform to train employees on, and one vendor relationship to manage.</li>
       </ul>
       <p>Streamlining internal operations directly elevates customer-facing execution.</p>
-    `
-  },
-  {
-    id: "20",
-    slug: "article-20",
-    title: 'Cloud CRM vs On-Premise CRM: Making the Right Choice for 2026 and Beyond',
-    excerpt: 'Comparing total cost of ownership, remote accessibility, security, and scalability between cloud SaaS and on-premise CRM solutions.',
-    date: 'Sep 30, 2025',
-    author: 'Tech Architecture',
-    imageUrl: 'https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=1200&q=80',
-    category: 'Technology',
-    content: `
+    `},{id:"20",slug:"article-20",title:"Cloud CRM vs On-Premise CRM: Making the Right Choice for 2026 and Beyond",excerpt:"Comparing total cost of ownership, remote accessibility, security, and scalability between cloud SaaS and on-premise CRM solutions.",date:"Sep 30, 2025",author:"Tech Architecture",imageUrl:"https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=1200&q=80",category:"Technology",content:`
       <p>Choosing the right deployment model for your CRM is one of the most consequential technology decisions an organization can make. While on-premise solutions once ruled enterprise IT, cloud-native CRM solutions have revolutionized business agility.</p>
       <h2>Cost Analysis: CapEx vs. OpEx</h2>
       <p>On-premise CRM requires hefty upfront capital expenditure (CapEx) for dedicated server hardware, database licenses, backup infrastructure, and dedicated IT maintenance staff. In contrast, Cloud CRM operates on an operational expenditure (OpEx) subscription model with predictable monthly pricing and zero server upkeep.</p>
@@ -1061,6 +842,4 @@ export const blogPosts = [
       </ul>
       <h2>Conclusion</h2>
       <p>For 95% of modern businesses, Cloud CRM offers superior scalability, lower total cost of ownership, and much faster time-to-value. LumeoCRM provides the security of cloud hosting with enterprise-grade encryption.</p>
-    `
-  }
-];
+    `}];e.s(["default",0,function(){return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(a.default,{}),(0,t.jsx)("div",{className:"min-h-screen bg-gray-50 pt-20 pb-24",children:(0,t.jsxs)("div",{className:"max-w-7xl mx-auto px-4 sm:px-6 lg:px-8",children:[(0,t.jsxs)("div",{className:"text-center max-w-3xl mx-auto mb-16",children:[(0,t.jsxs)("h1",{className:"text-4xl md:text-5xl font-extrabold text-gray-900 mb-6 tracking-tight",children:["Latest ",(0,t.jsx)("span",{className:"text-brand-orange",children:"Insights & News"})]}),(0,t.jsx)("p",{className:"text-xl text-gray-600 leading-relaxed",children:"Stay up to date with the latest industry trends, product updates, and expert tips from the LumeoCRM team."})]}),o.length>0&&(0,t.jsxs)(s.default,{href:`/blog/${o[0].slug}`,className:"mb-16 rounded-2xl overflow-hidden bg-white shadow-xl hover:shadow-2xl transition-shadow duration-300 group cursor-pointer border border-gray-100 flex flex-col lg:flex-row",children:[(0,t.jsx)("div",{className:"lg:w-1/2 relative overflow-hidden h-64 lg:h-auto",children:(0,t.jsx)("img",{src:o[0].imageUrl,alt:o[0].title,className:"absolute inset-0 w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-500"})}),(0,t.jsxs)("div",{className:"lg:w-1/2 p-8 md:p-12 flex flex-col justify-center",children:[(0,t.jsxs)("div",{className:"flex items-center gap-4 mb-4",children:[(0,t.jsx)("span",{className:"px-3 py-1 text-xs font-semibold uppercase tracking-wider text-brand-orange bg-orange-50 rounded-full",children:o[0].category}),(0,t.jsx)("span",{className:"text-sm text-gray-500",children:o[0].date})]}),(0,t.jsx)("h2",{className:"text-3xl font-bold text-gray-900 mb-4 group-hover:text-brand-orange transition-colors duration-200",children:o[0].title}),(0,t.jsx)("p",{className:"text-gray-600 mb-6 text-lg",children:o[0].excerpt}),(0,t.jsxs)("div",{className:"flex items-center text-brand-orange font-medium",children:["Read Article",(0,t.jsx)("svg",{className:"w-5 h-5 ml-2 transform group-hover:translate-x-1 transition-transform",fill:"none",stroke:"currentColor",viewBox:"0 0 24 24",children:(0,t.jsx)("path",{strokeLinecap:"round",strokeLinejoin:"round",strokeWidth:2,d:"M17 8l4 4m0 0l-4 4m4-4H3"})})]})]})]}),(0,t.jsx)("div",{className:"grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8",children:o.slice(1).map(e=>(0,t.jsxs)(s.default,{href:`/blog/${e.slug}`,className:"bg-white rounded-xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 group border border-gray-100 flex flex-col cursor-pointer hover:-translate-y-1",children:[(0,t.jsx)("div",{className:"relative h-48 overflow-hidden",children:(0,t.jsx)("img",{src:e.imageUrl,alt:e.title,className:"w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-500"})}),(0,t.jsxs)("div",{className:"p-6 flex flex-col flex-grow",children:[(0,t.jsxs)("div",{className:"flex items-center justify-between mb-3",children:[(0,t.jsx)("span",{className:"text-xs font-semibold uppercase tracking-wider text-brand-orange bg-orange-50 px-2.5 py-1 rounded-full",children:e.category}),(0,t.jsx)("span",{className:"text-sm text-gray-500",children:e.date})]}),(0,t.jsx)("h3",{className:"text-xl font-bold text-gray-900 mb-3 group-hover:text-brand-orange transition-colors duration-200",children:e.title}),(0,t.jsx)("p",{className:"text-gray-600 mb-4 line-clamp-3 flex-grow",children:e.excerpt}),(0,t.jsxs)("div",{className:"flex items-center text-brand-orange font-medium mt-auto text-sm",children:["Read Article",(0,t.jsx)("svg",{className:"w-4 h-4 ml-1 transform group-hover:translate-x-1 transition-transform",fill:"none",stroke:"currentColor",viewBox:"0 0 24 24",children:(0,t.jsx)("path",{strokeLinecap:"round",strokeLinejoin:"round",strokeWidth:2,d:"M17 8l4 4m0 0l-4 4m4-4H3"})})]})]})]},e.id))})]})})]})}],46227)}]);
