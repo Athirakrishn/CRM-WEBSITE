@@ -5,9 +5,9 @@ import { ArrowLeft } from 'lucide-react';
 import { blogPosts } from '@/data/blogPosts';
 
 export const metadata = {
-  title: 'Why Small Businesses Need to Move from Spreadsheets to CRM',
+  title: 'Is CRM Easy to Use? A Guide to Choosing the Best CRM Software in Kerala',
   description:
-    'Discover why relying on spreadsheets limits business growth and how switching to a dedicated CRM system organizes customer data and streamlines sales.',
+    'Many businesses think that CRM software is complicated and difficult to use. Discover how easy-to-use CRM software in Kerala helps your team adopt software quickly and improve sales.',
 };
 
 export default function BlogPostPage() {
