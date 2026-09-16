@@ -5,9 +5,9 @@ import { ArrowLeft } from 'lucide-react';
 import { blogPosts } from '@/data/blogPosts';
 
 export const metadata = {
-  title: 'CRM Software for Lead Management and Sales Growth',
+  title: 'How CRM Software Helps Improve Customer Management',
   description:
-    'Learn how CRM software simplifies lead management, improves follow-ups, and helps businesses build a more organized and effective sales process.',
+    'Managing customer relationships effectively is essential for every growing business. Learn how CRM software centralizes customer info, improves follow-ups, and drives retention.',
 };
 
 export default function BlogPostPage() {

@@ -5,9 +5,9 @@ import { ArrowLeft } from 'lucide-react';
 import { blogPosts } from '@/data/blogPosts';
 
 export const metadata = {
-  title: 'Best CRM Software in Kerala for Growing Businesses',
+  title: 'CRM Software for Lead Management and Sales Growth',
   description:
-    'Discover how the best CRM software in Kerala helps businesses manage leads, customers, sales, follow-ups, and business relationships efficiently.',
+    'Managing leads effectively is key to sales growth. Learn how CRM software helps organize leads, track sales, and improve conversions for growing businesses.',
 };
 
 export default function BlogPostPage() {
@@ -18,6 +18,7 @@ export default function BlogPostPage() {
   }
 
   return (
+
     <>
       <Header />
 

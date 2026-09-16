@@ -5,9 +5,9 @@ import { ArrowLeft } from 'lucide-react';
 import { blogPosts } from '@/data/blogPosts';
 
 export const metadata = {
-  title: 'How CRM Software Helps Improve Customer Management',
+  title: 'Sales Pipeline Management with CRM Software',
   description:
-    'Explore how CRM software helps businesses manage customer information, interactions, follow-ups, and relationships from one centralized platform.',
+    'Sales pipeline management with CRM software helps businesses organize their sales process, track opportunities, manage follow-ups, and forecast revenue.',
 };
 
 export default function BlogPostPage() {
