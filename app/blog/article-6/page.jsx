@@ -5,9 +5,9 @@ import { ArrowLeft } from 'lucide-react';
 import { blogPosts } from '@/data/blogPosts';
 
 export const metadata = {
-  title: 'Customer Portal and CRM Software for Better Service',
+  title: 'CRM Software for Sales Teams and Business Growth',
   description:
-    'Discover how customer portals and CRM software improve communication, customer access, support, and overall customer experience.',
+    'Discover how CRM software empowers sales teams in Kerala to manage leads, structure follow-ups, track sales pipelines, and drive sustainable business growth.',
 };
 
 export default function BlogPostPage() {

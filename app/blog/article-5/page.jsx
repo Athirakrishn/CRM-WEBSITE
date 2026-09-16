@@ -5,9 +5,9 @@ import { ArrowLeft } from 'lucide-react';
 import { blogPosts } from '@/data/blogPosts';
 
 export const metadata = {
-  title: 'CRM Software for Small and Growing Businesses in Kerala',
+  title: 'Customer Portal and CRM Software for Better Service',
   description:
-    'Find out how CRM software helps small and growing businesses in Kerala organize leads, customers, sales activities, and daily business operations.',
+    'Combining CRM software with a customer portal gives businesses in Kerala a centralized platform to manage customer info, service requests, invoices, and communication.',
 };
 
 export default function BlogPostPage() {

@@ -5,9 +5,9 @@ import { ArrowLeft } from 'lucide-react';
 import { blogPosts } from '@/data/blogPosts';
 
 export const metadata = {
-  title: 'CRM Software for Sales Teams and Business Growth',
+  title: 'CRM Software for Quotes, Invoicing and Sales Management',
   description:
-    'Learn how CRM software empowers sales teams with lead tracking, customer management, sales pipelines, follow-ups, and actionable business insights.',
+    'Streamline quotations, invoices, and sales management with CRM software. Learn how businesses in Kerala connect leads, quotes, and billing in one platform.',
 };
 
 export default function BlogPostPage() {

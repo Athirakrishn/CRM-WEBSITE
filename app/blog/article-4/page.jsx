@@ -5,9 +5,9 @@ import { ArrowLeft } from 'lucide-react';
 import { blogPosts } from '@/data/blogPosts';
 
 export const metadata = {
-  title: 'Sales Pipeline Management with CRM Software',
+  title: 'CRM Software for Small and Growing Businesses in Kerala',
   description:
-    'Learn how CRM software helps businesses track sales opportunities, manage pipelines, improve follow-ups, and close deals more efficiently.',
+    'Small and growing businesses in Kerala need a simple, scalable CRM software to manage leads, track customer information, and improve sales operations.',
 };
 
 export default function BlogPostPage() {
