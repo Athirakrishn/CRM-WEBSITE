@@ -5,9 +5,9 @@ import { ArrowLeft } from 'lucide-react';
 import { blogPosts } from '@/data/blogPosts';
 
 export const metadata = {
-  title: 'HR and Attendance Management with CRM Software',
+  title: 'Why Businesses Need the Best CRM Software in Kerala',
   description:
-    'Discover how integrated CRM and HR tools can help businesses manage employee attendance, customer relationships, sales, and daily operations efficiently.',
+    'Learn why growing businesses in Kerala need the best CRM software to centralize customer data, manage leads, streamline sales pipelines, and drive business growth.',
 };
 
 export default function BlogPostPage() {

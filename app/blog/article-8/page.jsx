@@ -5,9 +5,9 @@ import { ArrowLeft } from 'lucide-react';
 import { blogPosts } from '@/data/blogPosts';
 
 export const metadata = {
-  title: 'CRM Software for Quotes, Invoicing and Sales Management',
+  title: 'HR and Attendance Management with CRM Software',
   description:
-    'Explore how CRM software can simplify quotes, invoicing, sales management, customer records, and business workflows in one platform.',
+    'Discover how integrated CRM and HR tools can help businesses in Kerala manage employee attendance, leave, customer relationships, sales, and operations.',
 };
 
 export default function BlogPostPage() {
