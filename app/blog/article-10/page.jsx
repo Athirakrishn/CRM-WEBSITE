@@ -5,9 +5,9 @@ import { ArrowLeft } from 'lucide-react';
 import { blogPosts } from '@/data/blogPosts';
 
 export const metadata = {
-  title: 'Why Businesses Need the Best CRM Software in Kerala',
+  title: 'CRM Software for Lead Management and Sales Growth',
   description:
-    'Learn why businesses choose CRM software to manage customers, leads, sales pipelines, follow-ups, and operations while improving productivity and growth.',
+    'Managing leads effectively is one of the biggest challenges for growing businesses. Discover how CRM software optimizes lead tracking, follow-ups, and sales growth.',
 };
 
 export default function BlogPostPage() {

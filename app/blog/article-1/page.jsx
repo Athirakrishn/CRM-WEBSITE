@@ -5,9 +5,9 @@ import { ArrowLeft } from 'lucide-react';
 import { blogPosts } from '@/data/blogPosts';
 
 export const metadata = {
-  title: 'CRM Software for Lead Management and Sales Growth',
+  title: 'What is CRM Software? A Complete Guide for Modern Businesses',
   description:
-    'Managing leads effectively is key to sales growth. Learn how CRM software helps organize leads, track sales, and improve conversions for growing businesses.',
+    'Learn what CRM software is, how CRM systems work, key features, and why businesses in Kerala and Calicut need CRM for sales, lead management, and growth.',
 };
 
 export default function BlogPostPage() {
