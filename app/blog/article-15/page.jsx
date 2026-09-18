@@ -5,9 +5,9 @@ import { ArrowLeft } from 'lucide-react';
 import { blogPosts } from '@/data/blogPosts';
 
 export const metadata = {
-  title: 'Omnichannel Customer Support & Helpdesk Inside Modern CRM',
+  title: 'CRM Pricing in Kerala: How Much Does CRM Software Cost?',
   description:
-    'Find out how unifying customer interactions across WhatsApp, email, phone, and website chat enhances customer satisfaction and retention.',
+    'Choosing the right CRM software is an important decision for any business. Learn how much CRM software costs in Kerala, what factors affect pricing, and how to evaluate value.',
 };
 
 export default function BlogPostPage() {

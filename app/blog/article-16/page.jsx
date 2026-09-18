@@ -5,9 +5,9 @@ import { ArrowLeft } from 'lucide-react';
 import { blogPosts } from '@/data/blogPosts';
 
 export const metadata = {
-  title: 'High-Converting Email Follow-up Sequences for Sales Teams',
+  title: 'CRM Software Demo: What Should You Check Before Buying a CRM?',
   description:
-    'Learn proven strategies for creating automated email nurture sequences in CRM that re-engage cold leads and convert prospects into loyal customers.',
+    'Before purchasing a CRM, request a demo to evaluate usability, features, sales pipelines, reports, and support. Here is your complete CRM demo checklist.',
 };
 
 export default function BlogPostPage() {

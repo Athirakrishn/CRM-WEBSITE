@@ -26,7 +26,7 @@ export default function BlogPostPage() {
 
           <Link
             href="/blog"
-            className="inline-flex items-center text-gray-500 hover:text-brand-orange mb-8 transition-colors text-sm font-medium"
+            className="inline-flex items-center text-gra y-500 hover:text-brand-orange mb-8 transition-colors text-sm font-medium"
           >
             <ArrowLeft className="w-4 h-4 mr-2" />
             Back to all articles

@@ -5,9 +5,9 @@ import { ArrowLeft } from 'lucide-react';
 import { blogPosts } from '@/data/blogPosts';
 
 export const metadata = {
-  title: 'Real Estate CRM Software: Streamline Property Inquiries and Site Visits',
+  title: 'Cloud-Based CRM vs Traditional CRM: Which Is Right for Your Business?',
   description:
-    'Explore how real estate CRM software helps developers and agents track property inquiries, schedule site visits, manage inventory, and close property deals.',
+    'Compare cloud-based CRM and traditional on-premise CRM solutions across accessibility, maintenance, cost, security, customization, and scalability for Kerala businesses.',
 };
 
 export default function BlogPostPage() {

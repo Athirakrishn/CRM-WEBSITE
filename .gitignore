@@ -1,7 +1,7 @@
 # Logs
 logs
 *.log
-out
+
 
 # Dependencies
 node_modules
@@ -10,7 +10,7 @@ node_modules
 .next
 dist
 dist-ssr
-
+/out/
 # Environment files
 .env
 .env.local
