@@ -5,9 +5,9 @@ import { ArrowLeft } from 'lucide-react';
 import { blogPosts } from '@/data/blogPosts';
 
 export const metadata = {
-  title: 'Integrated HR Attendance and Task Management in CRM',
+  title: 'CRM Integration: Why Your Business Needs Connected Tools',
   description:
-    'Learn how integrating employee attendance, shift tracking, and daily task management within your CRM simplifies workforce operations and boosts efficiency.',
+    'Discover why CRM integration is essential for modern businesses to connect websites, email, WhatsApp, accounting, and payments to eliminate duplicate work and boost efficiency.',
 };
 
 export default function BlogPostPage() {

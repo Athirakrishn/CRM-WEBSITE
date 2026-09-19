@@ -5,9 +5,9 @@ import { ArrowLeft } from 'lucide-react';
 import { blogPosts } from '@/data/blogPosts';
 
 export const metadata = {
-  title: 'CRM Analytics & KPI Dashboards for Executive Decision Making',
+  title: 'CRM Software Security: How Safe Is Your Customer Data?',
   description:
-    'Understand the key sales metrics, pipeline health indicators, and executive dashboards needed to make data-driven decisions that propel revenue growth.',
+    'Learn how CRM software security protects customer data, user roles and permissions, encryption, backups, recovery, and what to ask before buying a CRM.',
 };
 
 export default function BlogPostPage() {
