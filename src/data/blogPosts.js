@@ -4638,7 +4638,7 @@ export const blogPosts = [
     excerpt: 'Learn how CRM software boosts customer retention, improves client loyalty, automates renewal follow-ups, and maximizes customer lifetime value for businesses in Kerala.',
     date: 'Jan 05, 2026',
     author: 'Customer Success Team',
-    imageUrl: 'https://images.unsplash.com/photo-1556742049-0a67e5572263?w=1200&q=80',
+    imageUrl: 'https://images.unsplash.com/photo-1521791136064-7986c2920216?w=1200&q=80',
     category: 'Customer Retention & Loyalty',
     content: `
       <p>Acquiring a new customer can cost five to seven times more than retaining an existing one. While many businesses invest heavily in advertising, outbound sales, and lead generation, sustainable long-term profitability is built on customer loyalty, repeat business, and maximized Customer Lifetime Value (CLV).</p>

@@ -1,0 +1,13 @@
+# Next.js static export serves pages as "page.html" next to a "page/" folder
+# (RSC payloads). Without these rules the server lists the folder instead.
+Options -Indexes
+DirectorySlash Off
+DirectoryIndex index.html
+ErrorDocument 404 /404.html
+
+RewriteEngine On
+
+# /blog/article-1 or /blog/article-1/  ->  /blog/article-1.html
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{DOCUMENT_ROOT}/$1.html -f
+RewriteRule ^(.+?)/?$ $1.html [L]
